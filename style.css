@@ -4,7 +4,54 @@ html,
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.title{
+    font-size: 6rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
     
+}
+
+#container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    row-gap: 4vh;
+    column-gap: 5vw;
+    justify-content: center;
+    padding-bottom: 10rem;
+    
+}
+
+.card{
+    /* border: 2px solid red; */
+    width: 25%;
+    text-align: center;
+    background-color: rgb(250, 194, 203);
+    justify-content: space-around;
+    border: 3px solid rgb(248, 141, 159);
+    padding: 10px;
+    box-shadow: 7px 12px #95818194;
+
+}
 
 
+.card-title{
+    font-size: 3rem;
+    margin: 0.5rem 0;
+    text-transform: uppercase;
+    margin: 4rem;
+}
+
+.card-image{
+    height: 300px;
+    width: 300px;
+    margin-bottom: 10rem;
+}
+
+h4{
+    font-size: 3rem;
 }
