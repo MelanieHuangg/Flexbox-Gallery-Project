@@ -5,6 +5,7 @@ html,
     margin: 0;
     box-sizing: border-box;
     font-size: 62.5%;
+    background-color: #8CBEB2;
 }
 
 .title{
@@ -12,7 +13,9 @@ html,
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 5rem;
-    
+    font-family: 'Grandstander', cursive;
+    font-family: 'Tourney', cursive;
+    color: #0c372d;
 }
 
 #container{
@@ -23,6 +26,10 @@ html,
     column-gap: 5vw;
     justify-content: center;
     padding-bottom: 10rem;
+
+    font-family: 'Karla', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
     
 }
 
@@ -30,11 +37,11 @@ html,
     /* border: 2px solid red; */
     width: 25%;
     text-align: center;
-    background-color: rgb(250, 194, 203);
+    background-color: #00a388;
     justify-content: space-around;
-    border: 3px solid rgb(248, 141, 159);
+    border: 3px solid #00796b;
     padding: 10px;
-    box-shadow: 7px 12px #95818194;
+    box-shadow: 7px 12px #0c372d;
 
 }
 
@@ -44,14 +51,18 @@ html,
     margin: 0.5rem 0;
     text-transform: uppercase;
     margin: 4rem;
+    background-color: #00a388;
 }
 
 .card-image{
     height: 300px;
     width: 300px;
-    margin-bottom: 10rem;
+    margin-bottom: 7rem;
+    background-color: #00a388;
 }
 
 h4{
     font-size: 3rem;
+    margin-bottom: 2rem;
+    border: solid #0c372d;
 }
