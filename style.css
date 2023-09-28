@@ -44,7 +44,7 @@ html,
     border: 3px solid #00796b;
     padding: 10px;
     box-shadow: 7px 12px #0c372d;
-    transition: all 0.3s;
+    transition: all 0.05s;
 
 }
 
@@ -57,17 +57,17 @@ html,
 }
 
 .card:hover{
-    color: rgba(214, 38, 26, 0.712);
+   color: rgba(62, 10, 126, 0.801);
 }
 
 .subtext:hover{
-    outline: 4px solid rgba(214, 38, 26, 0.712);
+    outline: 4px solid rgba(62, 10, 126, 0.801);
+
 }
 
 .card-title:hover{
     text-decoration: underline solid #0c372d;
 }
-
 
 
 
