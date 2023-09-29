@@ -34,7 +34,6 @@ html,
 }
 
 
-
 .card{
     /* border: 2px solid red; */
     width: 20%;
@@ -66,7 +65,7 @@ html,
 }
 
 .card-title:hover{
-    text-decoration: underline solid #0c372d;
+    text-decoration: underline solid rgba(62, 10, 126, 0.801);
 }
 
 
@@ -93,3 +92,15 @@ html,
     border: solid #0c372d;
     transition: all 0.1s;
 }
+
+.title {
+    background-color: #8CBEB2;
+    animation-name: animation;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes animation {
+    from {background-color: #8CBEB2;}
+    to {background-color: #00a388;}
+  }
