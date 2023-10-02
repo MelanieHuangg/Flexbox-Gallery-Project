@@ -104,3 +104,17 @@ html,
     from {background-color: #8CBEB2;}
     to {background-color: #00a388;}
   }
+
+  @media screen and (max-width: 1000px) {
+    .card{
+        width: 40%;
+    }
+  }
+
+
+  @media screen and (max-width: 813px) {
+    .card {
+        width: 100%;
+    }
+  }
+
